@@ -1,7 +1,7 @@
 /**
- * @name Rexxah Theme 3.6.3
+ * @name Rexxah Theme 3.7
  * @author Rexxah
- * @version 3 
+ * @version 3.7
  * @description Just A  Theme.
  */
 
@@ -12,8 +12,12 @@
 .typeWindows-2-g3UY>.wordmark-2u86JB:before{content:"Rexxah Theme"; }
 .typeWindows-2-g3UY>.wordmark-2u86JB>svg { filter: none; }
 .typeWindows-2-g3UY>.wordmark-2u86JB>svg>path { fill: var(--text-muted); }
-.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.6.3";color:rgba(255,255,255,.3);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
-.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.6.3";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
+.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.7 P.S. Risky is Cute";color:rgb(255, 81, 0);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
+.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.7";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
+.interactive-iyXY_x,
+.interactive-26HRN_ {
+  color: rgb(255, 81, 0);
+}
 /* SETTINGS */
 :root {
 
@@ -22,6 +26,13 @@
 	--hover-color: #ff6600; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
 	--success-color: #ff6600; /* success accent color (hex, rgb or hsl) [default: #43b581] */
 	--danger-color: #ff6600; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+
+	/*Customization Patch -HOPEFULLY THIS FIXES THIS SHIT*/
+	--channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+	--channel-color:  rgba(255,255,255,1); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+	--channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
+	--muted-color: rgba(255, 255, 255, 0.6); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+	--url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/	
 
 
 	/* STATUS COLORS */
@@ -102,4 +113,11 @@
 	--user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(---background-grayscale)] */
 	--user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(---background-sepia)] */
 	--user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+	
+        /* THEMES BBD COLORS */
+	--bd-blue: var(--main-color);
+	--bd-blue-hover: var(--hover-color);
+	--bd-blue-active: var(--hover-color);
+	--text-normal: rgb(220, 221, 222); /* color of default discord text */
+	--text-muted:  rgb(220, 221, 222); /* color of default discord muted text (text found in input fields before typing).*/
 }
