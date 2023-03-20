@@ -1,5 +1,5 @@
 /**
- * @name Rexxah Theme 3.7
+ * @name Rexxah Theme 3.7.2
  * @author Rexxah
  * @version 3.7
  * @description Just A  Theme.
@@ -7,17 +7,58 @@
 
 /* IMPORT CSS */
 @import url(https://clearvision.gitlab.io/v6/main.css);
-
+@import url(https://clearvision.github.io/Addons/whitney.css);
 
 .typeWindows-2-g3UY>.wordmark-2u86JB:before{content:"Rexxah Theme"; }
 .typeWindows-2-g3UY>.wordmark-2u86JB>svg { filter: none; }
 .typeWindows-2-g3UY>.wordmark-2u86JB>svg>path { fill: var(--text-muted); }
-.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.7";color:rgb(255, 123, 226);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
-.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.7";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
+.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.7.2";color:rgb(255, 123, 226);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
+.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.7.2";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
 .interactive-iyXY_x,
 .interactive-26HRN_ {
-  color: rgb(255, 123, 226);
+  color: rgb(253, 185, 239);
 }
+.rtcConnectionStatusConnected-1c73OK {
+  color: rgb(253, 185, 239);
+}
+
+.labelWrapper-1HofQ-,
+.rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ-,
+.rtcConnectionStatus-c5A6Av {
+  overflow: visible;
+    width: min-content;
+}
+
+/* Makes the logo rainbow. because why not 
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
+}
+*/
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV,
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg,
+.typeWindows-2-g3UY > .wordmark-2u86JB > svg,
+.container-1r6BKw .children-19S4PO .icon-22AiRD{
+  filter: none !important;
+  text-shadow: none !important;
+}
+
 /* SETTINGS */
 :root {
 
@@ -27,13 +68,12 @@
 	--success-color: #ff73e3; /* success accent color (hex, rgb or hsl) [default: #43b581] */
 	--danger-color: #ff73e3; /* danger accent color (hex, rgb or hsl) [default: #982929] */
 
-	/*Customization Patch -HOPEFULLY THIS FIXES THIS SHIT*/
+	/*Customization Patch -hopefully this fixes this shit*/ 
 	--channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
 	--channel-color:  rgba(255,255,255,1); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
 	--channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
 	--muted-color: rgba(224, 4, 4, 0.692); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 	--url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/	
-
 
 	/* STATUS COLORS */
 	--online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
