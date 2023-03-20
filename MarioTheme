@@ -18,6 +18,18 @@
 .interactive-26HRN_ {
   color: rgb(255, 91, 91);
 }
+
+.rtcConnectionStatusConnected-1c73OK {
+  color: rgb(255, 35, 35);
+}
+
+.labelWrapper-1HofQ-,
+.rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ-,
+.rtcConnectionStatus-c5A6Av {
+  overflow: visible;
+    width: min-content;
+}
+
 /* SETTINGS */
 :root {
 
