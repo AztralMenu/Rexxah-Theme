@@ -163,3 +163,6 @@
 	--text-normal: rgb(220, 221, 222); /* color of default discord text */
 	--text-muted:  rgb(220, 221, 222); /* color of default discord muted text (text found in input fields before typing).*/
 }
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+    color: var(--main-color);
+}
