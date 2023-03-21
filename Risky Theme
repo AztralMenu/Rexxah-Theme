@@ -30,7 +30,7 @@
     width: min-content;
 }
 
-/* Makes the logo rainbow. because why not 
+/* Makes the logo rainbow. because why not */
 @keyframes gradient-border {
     0%, 200% {
         background-position: 0 0;
@@ -51,7 +51,28 @@
     z-index: 1;
   font-size: 14px;
 }
-*/
+
+/* Makes the ver rainbow. because why not */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:after {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 10px;
+}
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV,
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg,
 .typeWindows-2-g3UY > .wordmark-2u86JB > svg,
