@@ -18,6 +18,17 @@
 .interactive-26HRN_ {
   color: rgb(253, 185, 239);
 }
+
+
+
+/* Channel animation */
+.mainContent-20q_Hp{
+  transition: all 1s;
+}
+.mainContent-20q_Hp:hover{
+  transition: all 0.2s;
+  transform: scale(0.8); }
+
 .rtcConnectionStatusConnected-1c73OK {
   color: rgb(253, 185, 239);
 }
@@ -29,7 +40,7 @@
     width: min-content;
 }
 
-/* Makes the logo rainbow. because why not 
+/* Makes the logo rainbow. because why not */
 @keyframes gradient-border {
     0%, 200% {
         background-position: 0 0;
@@ -50,7 +61,29 @@
     z-index: 1;
   font-size: 14px;
 }
-*/
+
+/* Makes the ver rainbow. because why not */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:after {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 10px;
+}
+
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV,
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg,
 .typeWindows-2-g3UY > .wordmark-2u86JB > svg,
@@ -155,9 +188,11 @@
 	--user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 	
         /* THEMES BBD COLORS */
-	--bd-blue: var(--main-color);
-	--bd-blue-hover: var(--hover-color);
 	--bd-blue-active: var(--hover-color);
 	--text-normal: rgb(220, 221, 222); /* color of default discord text */
 	--text-muted:  rgb(255, 123, 226); /* color of default discord muted text (text found in input fields before typing).*/
 }
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+    color: var(--main-color);
+}
+
