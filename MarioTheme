@@ -19,6 +19,14 @@
   color: rgb(255, 91, 91);
 }
 
+/* Channel animation */
+.mainContent-20q_Hp{
+  transition: all 1s;
+}
+.mainContent-20q_Hp:hover{
+  transition: all 0.2s;
+  transform: scale(0.8); }
+
 .rtcConnectionStatusConnected-1c73OK {
   color: rgb(255, 35, 35);
 }
