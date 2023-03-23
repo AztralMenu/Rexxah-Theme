@@ -1,93 +1,13 @@
 /**
- * @name Rexxah Theme 3.7.3
+ * @name Rexxah Theme 3.7.4
  * @author Rexxah
- * @version 3.7.3
+ * @version 3.7.4
  * @description Just A  Theme.
  */
 
 /* IMPORT CSS */
 @import url(https://clearvision.gitlab.io/v6/main.css);
 
-
-.typeWindows-2-g3UY>.wordmark-2u86JB:before{content:"Rexxah Theme"; }
-.typeWindows-2-g3UY>.wordmark-2u86JB>svg { filter: none; }
-.typeWindows-2-g3UY>.wordmark-2u86JB>svg>path { fill: var(--text-muted); }
-.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.7.3";color:rgb(255, 35, 35);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
-.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.7.3";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
-.interactive-iyXY_x,
-.interactive-26HRN_ {
-  color: rgb(255, 91, 91);
-}
-
-/* Channel animation */
-.mainContent-20q_Hp{
-  transition: all 1s;
-}
-.mainContent-20q_Hp:hover{
-  transition: all 0.2s;
-  transform: scale(0.8); }
-
-.rtcConnectionStatusConnected-1c73OK {
-  color: rgb(255, 35, 35);
-}
-
-.labelWrapper-1HofQ-,
-.rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ-,
-.rtcConnectionStatus-c5A6Av {
-  overflow: visible;
-    width: min-content;
-}
-
-/* Makes the logo rainbow. because why not */
-@keyframes gradient-border {
-    0%, 200% {
-        background-position: 0 0;
-    }
-
-    99.999999999999999% {
-        background-position: 130% 0;
-    }
-}
-.typeWindows-2-g3UY > .wordmark-2u86JB:before {
-  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
-    animation: gradient-border 4s linear infinite;
-    background-size: 400% 100%;
-    color: transparent !important;
-    -webkit-background-clip: text;
-    position: relative;
-    margin-bottom: 3px;
-    z-index: 1;
-  font-size: 14px;
-}
-
-/* Makes the ver rainbow. because why not */
-@keyframes gradient-border {
-    0%, 200% {
-        background-position: 0 0;
-    }
-
-    99.999999999999999% {
-        background-position: 130% 0;
-    }
-}
-.typeWindows-2-g3UY > .wordmark-2u86JB:after {
-  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
-    animation: gradient-border 4s linear infinite;
-    background-size: 400% 100%;
-    color: transparent !important;
-    -webkit-background-clip: text;
-    position: relative;
-    margin-bottom: 3px;
-    z-index: 1;
-  font-size: 10px;
-}
-.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV,
-.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg,
-.typeWindows-2-g3UY > .wordmark-2u86JB > svg,
-.container-1r6BKw .children-19S4PO .icon-22AiRD{
-  filter: none !important;
-  text-shadow: none !important;
-}
 
 /* SETTINGS */
 :root {
@@ -195,4 +115,96 @@
 .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
     color: var(--main-color);
 }
+/* Channel animation */
+.mainContent-20q_Hp{
+  transition: all 1s;
+}
+.mainContent-20q_Hp:hover{
+  transition: all 0.2s;
+  transform: scale(0.8); }
 
+.rtcConnectionStatusConnected-1c73OK {
+  color: rgb(255, 35, 35);
+}
+
+.labelWrapper-1HofQ-,
+.rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ-,
+.rtcConnectionStatus-c5A6Av {
+  overflow: visible;
+    width: min-content;
+}
+
+/* Makes the logos rainbow. because why not */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
+}
+
+.typeWindows-2-g3UY > .wordmark-2u86JB:after {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 10px;
+}
+
+.container-YkUktl:before {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 10px;
+}
+
+.container-YkUktl:after {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 5px;
+}
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV,
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg,
+.typeWindows-2-g3UY > .wordmark-2u86JB > svg,
+.container-1r6BKw .children-19S4PO .icon-22AiRD{
+  filter: none !important;
+  text-shadow: none !important;
+}
+.typeWindows-2-g3UY>.wordmark-2u86JB:before{content:"Rexxah Theme"; }
+.typeWindows-2-g3UY>.wordmark-2u86JB>svg { filter: none; }
+.typeWindows-2-g3UY>.wordmark-2u86JB>svg>path { fill: var(--text-muted); }
+.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.7.4";color:rgb(255, 35, 35);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
+.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.7.4";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
+.interactive-iyXY_x,
+.interactive-26HRN_ {
+  color: rgb(255, 91, 91);
+}
