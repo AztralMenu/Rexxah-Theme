@@ -1,7 +1,7 @@
 /**
- * @name Rexxah Theme 3.7.5
+ * @name Rexxah Theme 4.1.0
  * @author Rexxah
- * @version 3.7.5
+ * @version 4.1.0
  * @description Just A  Theme.
  */
 
@@ -45,7 +45,7 @@
 	/* APP BACKGROUND */
 	--background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
 	--background-overlay: rgba(0, 0, 0, 0.6); /* 0.6 app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-	--background-image: url(https://i.imgur.com/eVfW2VZ.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+	--background-image: url(https://i.imgur.com/n5IayZt.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
 	--background-position: center; /* app background position [default: center] */
 	--background-size: cover; /* app background size [default: cover] */
 	--background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -200,8 +200,8 @@
 }
 
 
-.typeWindows-2-g3UY>.wordmark-2u86JB:before{content:"Rexxah Theme"; }
-.typeWindows-2-g3UY>.wordmark-2u86JB>svg { filter: none; }
-.typeWindows-2-g3UY>.wordmark-2u86JB>svg>path { fill: var(--text-muted); }
-.typeWindows-2-g3UY>.wordmark-2u86JB:after{content:"v3.7.5";color:rgb(255, 123, 226);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
-.container-YkUktl{position:relative;background:rgba(0,0,0,0);margin-bottom:10px}.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container-YkUktl:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container-YkUktl:after{content:"v3.7.5";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
+.typeWindows__5fa63>.wordmark__0d178::before{content:"Rexxah Theme"; }
+.typeWindows__5fa63>.wordmark__0d178>svg { filter: none; }
+.typeWindows__5fa63>.wordmark__0d178>svg>path { fill: var(--text-muted); }
+.typeWindows__5fa63>.wordmark__0d178:after{content:"v4.1.0";color:rgb(255, 123, 226);font-family:var(--code-font);font-size:10px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg{filter:drop-shadow(0 0 5px var(--main-color));margin-top:6px}.typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path{fill:var(--main-color)}
+.container_ca50b9{position:relative;background:rgb(250, 95, 255);margin-bottom:10px}.theme-dark .container-1CH86i:before,.theme-dark .container_ca50b9:after{bottom:-8px;position:absolute;color:rgba(255,255,255,.3);font-size:11px;font-weight:700;transition:all .5s ease-in-out}.theme-dark .container_ca50b9:before{content:"Rexxah x CV";right:50%;text-align:right;transform:translateX(50%)}.theme-dark .container_ca50b9:after{content:"v4.1.0";left:50%;text-align:left;opacity:0;transform:translateX(50%) rotateX(90deg)}
